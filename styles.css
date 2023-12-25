@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #5cc8ff;;
+    --text-colour: black;
+    --bg-color: #1e1c2a;
+    --big-font: 5rem;
+    --h2-font:2.25rem;
+    --p-font:0.9rem;
+}
+
+::selection {
+    background: var(--main-color);
+    color: #fff;
+}
+
+body {
+    color: var(--text-color);
+    background: white;
+}
+
+header{
+    position:fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--bg-color);
+}
+
+.logo{
+    color: #5cc8ff;;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    color: #5cc8ff;;
+    transition: .4s;
+}
+
+#menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+section{
+    padding: 70px 17%;
+}
+
+.main-picture {
+    width: 500px;
+    border-radius: 50px; /* Adjust the value to control the roundness of the corners */
+    transition: border-radius 0.3s, box-shadow 0.3s;
+}
+
+.main-picture:hover {
+    border-radius: 100px; /* Adjust the value to control the roundness on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow as needed */
+}
+
+.home{
+    width: 100%;
+    min-height:  90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}

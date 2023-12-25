@@ -1,0 +1,16 @@
+Hey welcome to my writeup for my website for a restaurant in auckland
+
+23/12/2023
+
+I'm creating a index.html which would consist of the main logo and the main menu tool bars on the really top right all the time 
+
+I added a picture of my dad and his friends in the main front picture, it would ahve my dad and the people that shopped in his takeaway
+and it would have a top border that would have the menu
+
+I'm gonna add like more pictures and it would have a slide show
+
+
+errors
+theres alot of dishes in the restaurant therefore i would need to havea  dedicated page to food which would have
+a  tool bar which would put it to what ever option there is to be like fried rice it would jump to fried rice
+
