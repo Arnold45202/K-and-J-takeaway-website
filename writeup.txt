@@ -7,7 +7,7 @@ I'm creating a index.html which would consist of the main logo and the main menu
 I added a picture of my dad and his friends in the main front picture, it would ahve my dad and the people that shopped in his takeaway
 and it would have a top border that would have the menu
 
-I'm gonna add like more pictures and it would have a slide show
+I'm gonna add like more pictures and it would have a slide show for the main picture
 
 
 errors
