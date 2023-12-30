@@ -12,8 +12,8 @@
     --main-color: #5cc8ff;;
     --text-colour: black;
     --bg-color: #1e1c2a;
-    --big-font: 5rem;
-    --h2-font:2.25rem;
+    --big-font: 2.7rem;
+    --h2-font:1.3rem;
     --p-font:0.9rem;
 }
 
@@ -73,9 +73,11 @@ section{
 }
 
 .main-picture {
-    width: 500px;
     border-radius: 50px; /* Adjust the value to control the roundness of the corners */
     transition: border-radius 0.3s, box-shadow 0.3s;
+    width: 500px;
+    height: auto;
+    max-width: 100%;
 }
 
 .main-picture:hover {
@@ -90,4 +92,28 @@ section{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1.5rem;
     align-items: center;
+}
+
+.home-text h1{
+    font-size: var(--big-font);
+    color: var(--main-color);
+}
+
+.home-text h2{
+    font-size: var(--h2-font);
+    margin: 1rem 0 2rem;
+    color: #FC8955;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    transition: .5s;
 }
