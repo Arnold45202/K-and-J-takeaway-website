@@ -14,3 +14,15 @@ errors
 theres alot of dishes in the restaurant therefore i would need to havea  dedicated page to food which would have
 a  tool bar which would put it to what ever option there is to be like fried rice it would jump to fried rice
 
+29/12/2023 
+
+Been a little busy to do this but i added an about section right under the index.html
+
+i'm planning to have everything on one page and it would make it move down as needed 
+
+right now i need more pictureds of the shop for better presentation
+
+errors:
+
+need to make a menu asap
+
