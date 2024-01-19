@@ -193,16 +193,16 @@ section{
 }
 
 .price {
-    color: #5cc8ff; /* Adjust the color based on your preference */
+    color: #5cc8ff;
     font-weight: bold;
 }
 
 
 .footer {
-    background-color: #1e1c2a; /* Same as --bg-color in :root */
+    background-color: #1e1c2a;
     color: #fff;
     padding: 50px 0;
-    margin-top: 50px; /* Add some space between the content and footer */
+    margin-top: 50px; 
 }
 
 .footer-content {
@@ -216,7 +216,7 @@ section{
 }
 
 .footer-section h2 {
-    color: #5cc8ff; /* Same as --main-color in :root */
+    color: #5cc8ff; 
 }
 
 .footer-section p {
