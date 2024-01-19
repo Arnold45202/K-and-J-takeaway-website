@@ -73,7 +73,7 @@ section{
 }
 
 .main-picture {
-    border-radius: 50px; /* Adjust the value to control the roundness of the corners */
+    border-radius: 50px; 
     transition: border-radius 0.3s, box-shadow 0.3s;
     width: 500px;
     height: auto;
@@ -81,8 +81,8 @@ section{
 }
 
 .main-picture:hover {
-    border-radius: 100px; /* Adjust the value to control the roundness on hover */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the shadow as needed */
+    border-radius: 100px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 .home{
@@ -159,33 +159,77 @@ section{
     font-size: var(--h2-font);
 }
 
-.menu-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    grid-gap: 1.5rem;
-    align-items: center;
+.menu {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
 }
 
-.box{
-    position:relative;
-    margin-top: 4rem;
-    height: auto;
+.heading {
+    margin-bottom: 30px;
+}
+
+.food-type {
+    margin-bottom: 40px;
+}
+
+.food-type h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: #feeee7;
-    padding: 20px;
-    border-radius: 20px;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.box-img {
-    width: 220px;
-    height: 220px;
-
+.menu-item p {
+    margin: 0;
 }
 
-.box-img img{
-    width: 100%;
-    height: 100%;
+.price {
+    color: #5cc8ff; /* Adjust the color based on your preference */
+    font-weight: bold;
+}
+
+
+.footer {
+    background-color: #1e1c2a; /* Same as --bg-color in :root */
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 50px; /* Add some space between the content and footer */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h2 {
+    color: #5cc8ff; /* Same as --main-color in :root */
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #5cc8ff; 
+}
+
+.footer-bottom p {
+    font-size: 12px;
 }
