@@ -10,6 +10,7 @@ git clone git@github.com:Arnold45202/K-and-J-takeaway-website.git
 ```
 
 then you install a vs coode extention called 
+
 ![image](https://github.com/Arnold45202/K-and-J-takeaway-website/assets/143671110/587d32d2-d088-4a4f-adbe-85e3e697a2ce)
 
 next you open the index.html then you click open with live server 
