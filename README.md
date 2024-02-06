@@ -25,4 +25,5 @@ Then it should be ran on your local host !! http://localhost:3000/
 [1.0.0] - 20/01/2024 website is started and ran smoothly 
 
 [1.0.1] - 22/01/2024 fixing a pricing on a food newly updated 
+-prices are not known for some food 
 
